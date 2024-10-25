@@ -20,26 +20,26 @@ async function checkWeather(city){
     document.querySelector(".description").innerHTML=data.weather[0].description;
 
     if(data.weather[0].main=="Clouds"){
-        weatherIcon.src = "images/clouds.png";
-        backImg.style.backgroundImage="url(images/Clouds.gif)";
+        weatherIcon.src = "clouds.png";
+        backImg.style.backgroundImage="url(Clouds.gif)";
     }else if(data.weather[0].main=="Clear"){
-        weatherIcon.src="images/clear.png";
-        backImg.style.backgroundImage="url(images/Clear.gif)";
+        weatherIcon.src="clear.png";
+        backImg.style.backgroundImage="url(Clear.gif)";
     }else if(data.weather[0].main=="Drizzle"){
-        weatherIcon.src="images/drizzle.png";
-        backImg.style.backgroundImage="url(images/drizzlee.gif)";
+        weatherIcon.src="drizzle.png";
+        backImg.style.backgroundImage="url(drizzlee.gif)";
     }else if(data.weather[0].main=="Mist"){
-        weatherIcon.src="images/mist.png";
-        backImg.style.backgroundImage="url(images/mist.gif.jpg)";
+        weatherIcon.src="mist.png";
+        backImg.style.backgroundImage="url(mist.gif.jpg)";
     }else if(data.weather[0].main=="Rain"){
-        weatherIcon.src="images/rain.png";
-        backImg.style.backgroundImage="url(images/rain.gif)";
+        weatherIcon.src="rain.png";
+        backImg.style.backgroundImage="url(rain.gif)";
     }else if(data.weather[0].main=="Haze"){
-        weatherIcon.src="images/haze1.png";
-        backImg.style.backgroundImage="url(images/haze.gif)";
+        weatherIcon.src="haze1.png";
+        backImg.style.backgroundImage="url(haze.gif)";
     }else if(data.weather[0].main=="Snow"){
-        weatherIcon.src="images/snow.png";
-        backImg.style.backgroundImage="url(images/snowfall.gif)";
+        weatherIcon.src="snow.png";
+        backImg.style.backgroundImage="url(snowfall.gif)";
     }
     document.querySelector(".weather").style.display="block";
     
