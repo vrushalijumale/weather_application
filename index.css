@@ -7,7 +7,7 @@
     
     body{
         /* background-color: rgb(4, 69, 47); */
-        background-image: url(images/Body_bg.png);
+        background-image: url(Body_bg.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -15,7 +15,7 @@
         background-color: rgba(160, 164, 198, 0.589);
         width: 90%;
         max-width: 400px;
-        /* background-image: url("images/cloud.gif"); */
+        /* background-image: url("cloud.gif"); */
         /* background: linear-gradient(150deg, #32dfc2, #0e1452); */
        background-size: cover;
        /* background-size: cover; */
